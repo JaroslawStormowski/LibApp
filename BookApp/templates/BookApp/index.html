@@ -1,0 +1,16 @@
+
+{% extends 'BookApp/base.html' %}
+{% block main_content %}
+
+<h1>List o books</h1>
+{% if all_books %}
+    <ul>
+        {% for book in all_books %}
+            <li><a href= {% url "detail" book.id %}><b>{{book.title}}</b></a></li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p> There is no books. Start new query</p>
+{% endif %}
+
+{% endblock %}

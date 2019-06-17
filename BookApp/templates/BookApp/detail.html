@@ -1,0 +1,15 @@
+
+{% extends 'BookApp/base.html' %}
+{% block main_content %}
+
+<h1>{{book.title}}</h1>
+<ul>
+    <li>authors: {{ book.authors }}</li>
+    <li>publishedDate: {{ book.publishedDate }}</li>
+    <li>language: {{ book.language }}</li>
+    <li>pageCount: {{ book.pageCount }}</li>
+    <li>imageLinks: {{ book.imageLinks }}</li>
+    <li>industryIdentifiers: {{ book.industryIdentifiers }}</li>
+</ul>
+
+{% endblock %}

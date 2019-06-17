@@ -1,0 +1,20 @@
+
+{% extends 'BookApp/base.html' %}
+{% block main_content %}
+
+<h1>{{dic.title}}</h1>
+<ul>
+    <li>authors: {{ dic.authors }}</li>
+    <li>publishedDate: {{ dic.publishedDate }}</li>
+    <li>language: {{ dic.language }}</li>
+    <li>pageCount: {{ dic.pageCount }}</li>
+    <li>imageLinks: {{ dic.imageLinks }}</li>
+    <li>industryIdentifiers: {{ dic.industryIdentifiers }}</li>
+</ul>
+
+    {% if transfer %}
+        <h3> Data Transfer finished successfully!</h3>
+    {% else %}
+        <h3> Data Transfer did not succeed!</h3>
+    {% endif %}
+{% endblock %}

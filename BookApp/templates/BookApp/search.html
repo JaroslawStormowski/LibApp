@@ -1,0 +1,26 @@
+
+{% extends 'BookApp/base.html' %}
+{% block main_content %}
+
+<h1>List of books by search</h1>
+{% if list_d %}
+    {% for dic in list_d %}
+        <table>
+            <tr>
+                <hr>
+                {% for key, value in dic.items %}
+                    <tr>
+                        <td>{{key}}</td>
+                        <td>{{value}}</td>
+                    </tr>
+                {% endfor %}
+            </tr>
+            <th><a href={% url "add" list_index=forloop.counter0 %}>Add this book to database</a></th>
+
+        </table>
+    {% endfor %}
+{% else %}
+    <p> Data was not found in GoogleApi</p>
+{% endif %}
+
+{% endblock %}
