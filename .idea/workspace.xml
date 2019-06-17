@@ -79,8 +79,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LibApp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="116" selection-start-line="116" selection-end-line="116" />
+            <state relative-caret-position="452">
+              <caret line="123" selection-start-line="123" selection-end-line="123" />
+              <folding>
+                <element signature="e#306#326#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,7 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LibApp/settings.py" />
         <option value="$PROJECT_DIR$/BookApp/admin.py" />
         <option value="$PROJECT_DIR$/BookApp/scripts/data_transfer.py" />
         <option value="$PROJECT_DIR$/BookApp/tests.py" />
@@ -116,6 +118,7 @@
         <option value="$PROJECT_DIR$/BookApp/scripts.py" />
         <option value="$PROJECT_DIR$/LibApp/urls.py" />
         <option value="$PROJECT_DIR$/BookApp/templates/BookApp/base.html" />
+        <option value="$PROJECT_DIR$/LibApp/settings.py" />
       </list>
     </option>
   </component>
@@ -273,7 +276,7 @@
       <option name="presentableId" value="Default" />
       <updated>1560433183821</updated>
       <workItem from="1560433188964" duration="60678000" />
-      <workItem from="1560697523794" duration="7273000" />
+      <workItem from="1560697523794" duration="7475000" />
     </task>
     <servers />
   </component>
@@ -310,10 +313,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67951000" />
+    <option name="totallyTimeSpent" value="68153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12532134" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -459,8 +463,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LibApp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        <state relative-caret-position="452">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+          <folding>
+            <element signature="e#306#326#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
