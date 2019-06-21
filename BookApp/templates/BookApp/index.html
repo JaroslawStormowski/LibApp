@@ -2,13 +2,27 @@
 {% extends 'BookApp/base.html' %}
 {% block main_content %}
 
-<h1>List o books</h1>
+<h1>List of books</h1>
 {% if all_books %}
-    <ul>
+    <table border="1">
+        <tr>
+            <th>Title</th>
+            <th>Authors</th>
+            <th>Published date</th>
+            <th>Pages</th>
+            <th>Language</th>
+        </tr>
         {% for book in all_books %}
-            <li><a href= {% url "detail" book.id %}><b>{{book.title}}</b></a></li>
+            <tr>
+                <td><a href= {% url "detail" book.id_uuid %}><b>{{book.title}}</b></a></td>
+                <td> {{book.authors}}</td>
+                <td> {{book.publishedDate}}</td>
+                <td> {{book.pageCount}}</td>
+                <td> {{book.language}}</td>
+
+            </tr>
         {% endfor %}
-    </ul>
+    </table>
 {% else %}
     <p> There is no books. Start new query</p>
 {% endif %}

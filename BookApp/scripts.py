@@ -16,19 +16,18 @@ class Script:
         data_all = json.loads(response.read())
         data = data_all["items"]
         i = 0
-
         for item in data:
             dic = {}
-            try:
-                dic["title"] = item["volumeInfo"]["title"]
-                dic["authors"] = item["volumeInfo"]["authors"]
-                dic["publishedDate"] = item["volumeInfo"]["publishedDate"]
-                dic["industryIdentifiers"] = item["volumeInfo"]["industryIdentifiers"]
-                dic["pageCount"] = item["volumeInfo"]["pageCount"]
-                dic["imageLinks"] = item["volumeInfo"]["imageLinks"]
-                dic["language"] = item["volumeInfo"]["language"]
-            except:
-                pass
+            fields = ["title", "authors", "publishedDate", "industryIdentifiers", "pageCount", "imageLinks", "language"]
+            for field in fields:
+                try:
+                    dic[field] = item["volumeInfo"][field]
+                except:
+                    dic[field] = None
+                    #if field == "pageCount":
+                    #    dic[field] = 0
+                    #else:
+                    #    dic[field] = ""
             if len(self.list_d) < (i+1):
                 self.list_d.append(dic)
             else:
