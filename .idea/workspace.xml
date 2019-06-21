@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3cb5df5-88fd-453f-b979-c2620f74ce2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookApp/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookApp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookApp/scripts.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookApp/scripts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookApp/templates/BookApp/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookApp/templates/BookApp/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookApp/templates/BookApp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookApp/templates/BookApp/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookApp/templates/BookApp/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookApp/templates/BookApp/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookApp/templates/BookApp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookApp/templates/BookApp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookApp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookApp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/LibApp/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="c3cb5df5-88fd-453f-b979-c2620f74ce2b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +233,7 @@
       <updated>1560433183821</updated>
       <workItem from="1560433188964" duration="60678000" />
       <workItem from="1560697523794" duration="12265000" />
-      <workItem from="1560754708361" duration="61812000" />
+      <workItem from="1560754708361" duration="62428000" />
     </task>
     <servers />
   </component>
@@ -286,12 +270,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134755000" />
+    <option name="totallyTimeSpent" value="135371000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="800" y="0" width="800" height="860" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12660669" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26621622" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -305,7 +289,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50192803" side_tool="true" weight="0.1897712" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49807197" visible="true" weight="0.1897712" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49807197" visible="true" weight="0.19394773" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
